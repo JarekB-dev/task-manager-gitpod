@@ -7,3 +7,9 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.modal {}
+
+.modal-footer {
+  text-align: center !important;
+}
