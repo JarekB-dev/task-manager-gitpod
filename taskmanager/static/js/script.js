@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
+
+
+  // side nav for mobiles initialization
   let sidenav = document.querySelectorAll('.sidenav');
   M.Sidenav.init(sidenav);
 
@@ -17,6 +20,12 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   })
 
+  // select initialization
   let selects = document.querySelectorAll('select');
   M.FormSelect.init(selects);
+
+
+  // collapsable task list
+  let collapsibles = document.querySelectorAll('.collapsible');
+  M.Collapsible.init(collapsibles);
 });
